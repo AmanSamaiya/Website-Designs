@@ -1,0 +1,322 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: black;
+  background-color: rgb(218, 227, 230);
+  font-family: "Cabin", sans-serif;
+  overflow-x: hidden;
+}
+
+.mainBackground {
+  width: 120%;
+  z-index: -1;
+  position: absolute;
+  opacity: 95%;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav img {
+  height: 120px;
+  width: 120px;
+}
+
+nav ul {
+  display: flex;
+  gap: 70px;
+}
+
+nav ul li {
+  position: relative;
+  top: 30px;
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+hr {
+  margin: 0 80px;
+}
+
+/* header home information section */
+
+.header_info {
+  position: relative;
+  left: 200px;
+  width: fit-content;
+  margin-top: 70px;
+  color: white;
+}
+
+.header_info h1 {
+  font-size: 60px;
+}
+
+.header_info button {
+  background-color: rgb(93, 56, 224);
+  border: none;
+  border-radius: 15px;
+  font-weight: 700;
+  text-align: center;
+  height: 40px;
+  width: 150px;
+  color: white;
+}
+
+/* logo section */
+.logo {
+  position: relative;
+  top: 500px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  margin: 40px 60px;
+  padding: 50px 50px;
+}
+
+.logo img {
+  height: 30px;
+}
+
+.card_section {
+  margin-top: 550px;
+}
+
+.card_section h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.card img {
+  height: 400px;
+  width: 400px;
+  border-radius: 12px;
+}
+
+.card {
+  margin: 20px;
+}
+
+.card_data {
+  position: relative;
+  left: 20px;
+  bottom: 50px;
+  display: flex;
+  border-radius: 12px;
+  background-color: white;
+  height: 100px;
+  width: 320px;
+  gap: 200px;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.card_data p {
+  font-size: 20px;
+  font-weight: 900;
+  width: 10%;
+}
+
+.card_data span {
+  color: rgb(93, 56, 224);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.card_data button {
+  background-color: rgb(93, 56, 224);
+  border: none;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  height: 35px;
+  width: 100px;
+  color: white;
+}
+
+.card_first {
+  position: relative;
+  bottom: 30px;
+}
+
+.card_last {
+  position: relative;
+  top: 30px;
+}
+
+/* booking section */
+.booking_sections {
+  margin: 50px 40px;
+  display: flex;
+  gap: 100px;
+}
+
+.feature_image_bg {
+  position: relative;
+  top: 100px;
+  height: 300px;
+  width: 75%;
+}
+
+.feature_image_bg2 {
+  position: relative;
+  top: 100px;
+  height: 300px;
+  width: 85%;
+}
+
+.feature_image {
+  border-radius: 20px;
+  position: relative;
+  left: 85px;
+  bottom: 250px;
+  height: 250px;
+  width: 250px;
+}
+
+.booking_sections div h1 {
+  font-size: 70px;
+}
+
+.booking_sections div p {
+  color: rgb(172, 168, 168);
+  font-size: 18px;
+  width: 70%;
+}
+
+.booking_sections div button {
+  background-color: rgb(93, 56, 224);
+  border: none;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  height: 35px;
+  width: 150px;
+  color: white;
+}
+
+/* newsletter section */
+.newsletter {
+  text-align: center;
+  color: white;
+  margin: 20px 80px;
+  padding: 50px;
+  border: none;
+  border-radius: 40px;
+  background-color: rgb(93, 56, 224);
+}
+
+.newsletter h1 {
+  font-size: 60px;
+}
+
+.newsletter p {
+  margin-left: 260px;
+  text-align: center;
+  width: 50%;
+  font-size: 18px;
+}
+
+.form {
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+
+.form div input {
+  background-color: rgb(103, 79, 189);
+  font-size: 18px;
+  text-indent: 20%;
+  font-weight: 500;
+  height: 50px;
+  width: 350px;
+  border: none;
+  border-radius: 40px;
+}
+
+.form div img {
+  position: relative;
+  left: 50px;
+  top: 5px;
+}
+
+.form button {
+  background-color: #fff;
+  color: rgb(103, 79, 189);
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  border-radius: 40px;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+}
+
+/* footer section */
+footer {
+  display: flex;
+  gap: 100px;
+  justify-content: space-around;
+}
+
+.footer_logo img {
+  height: 100px;
+  width: 150px;
+}
+
+.social_icons img {
+  margin-right: 20px;
+  height: 40px;
+  width: 40px;
+}
+
+footer p {
+  width: 60%;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer-links {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-links-data ul {
+  line-height: 2;
+}
+
+.footer-links-data ul li {
+  list-style: none;
+}
+
+.footer-links-data ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-links-data ul::first-line {
+  font-size: 25px;
+  font-weight: 700;
+}
+.footer-links-data ul {
+  font-weight: 600;
+}
